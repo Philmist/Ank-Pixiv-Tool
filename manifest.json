@@ -1,0 +1,12 @@
+{
+    "description": "Capture twitter data transfer",
+    "manifest_version": 2,
+    "name": "Ank-Pixiv-Capture-Twitter",
+    "version": "0.1",
+    "permissions": [
+        "webRequest", "webRequestBlocking", "*://*.twitter.com/*", "*://*.twimg.com/*"
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
